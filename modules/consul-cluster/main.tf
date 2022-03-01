@@ -115,8 +115,6 @@ resource "aws_autoscaling_group" "consul_asg" {
     value               = var.cluster_tag_value
     propagate_at_launch = true
   }
-
-
 }
 
 # ---------------------------------------------------------------------------------------------------------------------

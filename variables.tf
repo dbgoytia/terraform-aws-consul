@@ -6,13 +6,11 @@ variable "cluster_name" {
 variable "cluster_tag_key" {
   description = "The tag EC2 instances will look to auto-discover each other and form cluster"
   type        = string
-  default     = "consul-servers"
 }
 
 variable "cluster_tag_value" {
   description = "The tag EC2 instances will look to auto-discover each other and form cluster"
   type        = string
-  default     = "auto-join"
 }
 
 variable "desired_capacity" {
